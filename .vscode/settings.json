@@ -1,0 +1,52 @@
+{
+  // EDITOR -> WORKSPACE
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": { "strings": "on" },
+  // EDITOR -> USER
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  // EXPLORER
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // FILES
+  "files.enableTrash": true,
+  "files.exclude": {
+    "**/.changeset": false,
+    "**/.commitlintrc": false,
+    "**/.editorconfig": false,
+    "**/.gitignore": false,
+    "**/.gitkeep": false,
+    "**/.husky": false,
+    "**/.lintstagedrc": false,
+    "**/.npmignore": false,
+    "**/.npmrc": false,
+    "**/.nuxt": false,
+    "**/.nvmrc": false,
+    "**/.output": false,
+    "**/.turbo": false,
+    "**/.vscode": false,
+    "**/CHANGELOG.md": false,
+    "**/coverage": false,
+    "**/dist": false,
+    "**/LICENSE": false,
+    "**/node_modules": false,
+    "**/pnpm-lock.yaml": false,
+    "**/README.md": false
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  // TERMINAL
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  // WINDOW
+  "window.commandCenter": false,
+  // WORKBENCH
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "symbols",
+  "symbols.hidesExplorerArrows": false
+}
