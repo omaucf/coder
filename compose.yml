@@ -1,0 +1,19 @@
+services:
+  coder:
+    container_name: coder
+    image: lscr.io/linuxserver/code-server:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - PASSWORD=password
+      - SUDO_PASSWORD=sudopassword
+      - DEFAULT_WORKSPACE=/config/workspace
+    ports:
+      - 8443:8443
+      - 3000:3000
+      - 4000:4000
+    volumes:
+      - ./config:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
