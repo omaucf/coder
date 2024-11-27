@@ -11,6 +11,8 @@ services:
       - DEFAULT_WORKSPACE=/config/workspace
     ports:
       - 8443:8443
+      - 3000:3000
+      - 24678:24678
     volumes:
       - ./config:/config
       - /var/run/docker.sock:/var/run/docker.sock
