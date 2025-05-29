@@ -1,0 +1,70 @@
+{
+  // CSS -> LINT
+  "css.lint.unknownAtRules": "ignore",
+  "css.lint.unknownProperties": "ignore",
+  // EDITOR -> WORKSPACE
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.formatOnSave": false,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  // EDITOR -> USER
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  // EXPLORER
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // FILES
+  "files.associations": {
+    ".env": "shellscript"
+  },
+  "files.enableTrash": true,
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.changeset": true,
+    "**/.commitlintrc": true,
+    "**/.data": true,
+    "**/.dockerignore": true,
+    "**/.editorconfig": true,
+    "**/.gitattributes": true,
+    "**/.github": true,
+    "**/.gitignore": true,
+    "**/.gitkeep": true,
+    "**/.husky": true,
+    "**/.lintstagedrc": true,
+    "**/.npmignore": true,
+    "**/.npmrc": true,
+    "**/.nuxt": true,
+    "**/.nvmrc": true,
+    "**/.output": true,
+    "**/.turbo": true,
+    "**/.vscode": true,
+    "**/CHANGELOG.md": true,
+    "**/components.json": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/Dockerfile": true,
+    "**/LICENSE.md": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true,
+    "**/README.md": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  // TERMINAL
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  // WINDOW
+  "window.commandCenter": false,
+  // WORKBENCH
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+}

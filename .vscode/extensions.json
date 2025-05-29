@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    // DEVELOPMENT
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    // THEMING
+    "akamud.vscode-theme-onedark",
+    "pkief.material-icon-theme",
+    // UTIL
+    "editorconfig.editorconfig",
+    "jellydn.toggle-excluded-files"
+  ]
+}
